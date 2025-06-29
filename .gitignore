@@ -12,6 +12,12 @@ backend/google-credentials.json
 credentials.json
 **/credentials.json
 
+# Google Apps Script files (contain sensitive code)
+app script.txt
+**/app script.txt
+*.gs
+**/*.gs
+
 # Node modules
 node_modules/
 whatsapp-bot/node_modules/
